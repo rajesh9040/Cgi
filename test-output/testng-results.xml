@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-11T19:24:06 IST" name="Default suite" finished-at="2024-06-11T19:24:42 IST" duration-ms="36294">
+    <groups>
+    </groups>
+    <test started-at="2024-06-11T19:24:06 IST" name="Default test" finished-at="2024-06-11T19:24:42 IST" duration-ms="36294">
+      <class name="testCgi.callingObject">
+        <test-method signature="launch()[pri:0, instance:testCgi.callingObject@3fc2959f]" started-at="2024-06-11T19:24:06 IST" name="launch" finished-at="2024-06-11T19:24:42 IST" duration-ms="36250" status="FAIL">
+          <exception class="javax.net.ssl.SSLHandshakeException">
+            <message>
+              <![CDATA[No subject alternative DNS name matching www.rahulshettyacademy.com found.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[javax.net.ssl.SSLHandshakeException: No subject alternative DNS name matching www.rahulshettyacademy.com found.
+at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130)
+at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:378)
+at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321)
+at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:316)
+at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1318)
+at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1195)
+at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1138)
+at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393)
+at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:469)
+at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447)
+at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:201)
+at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506)
+at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421)
+at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:587)
+at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187)
+at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:142)
+at Cgi.cgi.checkForBrokenLinks(cgi.java:161)
+at Cgi.cgi.launchbrowser(cgi.java:82)
+at testCgi.callingObject.launch(callingObject.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.security.cert.CertificateException: No subject alternative DNS name matching www.rahulshettyacademy.com found.
+at java.base/sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:207)
+at java.base/sun.security.util.HostnameChecker.match(HostnameChecker.java:103)
+at java.base/sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:457)
+at java.base/sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:417)
+at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:237)
+at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
+at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1302)
+... 43 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- javax.net.ssl.SSLHandshakeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- testCgi.callingObject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

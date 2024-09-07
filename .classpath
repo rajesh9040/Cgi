@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (4)/api-3.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (4)/jackson-3.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (4)/jackson-annotations-2.13.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (4)/jackson-databind-2.13.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (4)/pcollections-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (4)/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (4)/accessors-smart-2.4.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (4)/annotations-23.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (4)/asm-9.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (4)/jackson-core-2.13.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (4)/json-path-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (4)/json-smart-2.4.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (4)/log4j-3.1.1.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/commons-lang3-3.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/groovy-4.0.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/groovy-json-4.0.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/groovy-xml-4.0.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/rest-assured-all-5.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/cucumber-gherkin-7.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/ci-environment-10.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/cucumber-core-7.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/docstring-7.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/html-formatter-20.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/tag-expressions-6.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/cucumber-java-7.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/cucumber-plugin-7.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/apiguardian-api-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/cucumber-expressions-17.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/cucumber-gherkin-messages-7.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/datatable-7.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/gherkin-26.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/junit-xml-formatter-0.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91700/Downloads/jar_files (3)/messages-22.0.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
